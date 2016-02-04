@@ -1,0 +1,1233 @@
+[ 2016-01-14T20:11:20+08:00 ] 127.0.0.1 /Qiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014007s ]
+
+[ 2016-01-14T20:11:20+08:00 ] 127.0.0.1 /Qiao/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004197s ]
+
+[ 2016-01-14T20:11:21+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002934s ]
+
+[ 2016-01-14T20:11:37+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003690s ]
+
+[ 2016-01-14T20:11:46+08:00 ] 127.0.0.1 /Qiao/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0105s ]
+
+[ 2016-01-14T20:11:48+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003566s ]
+
+[ 2016-01-14T20:12:01+08:00 ] 127.0.0.1 /Qiao/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004398s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+
+[ 2016-01-14T20:12:04+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005749s ]
+
+[ 2016-01-14T20:13:12+08:00 ] 127.0.0.1 /Qiao/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+SQL: select *from user where username='admin' [ RunTime:0.0013s ]
+
+[ 2016-01-14T20:13:12+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002663s ]
+
+[ 2016-01-14T20:13:13+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000448s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012512s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002871s ]
+
+[ 2016-01-14T20:13:16+08:00 ] 127.0.0.1 /Qiao/Home/Info/index/bid/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0095s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=55 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 199 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 201 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 203 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 207 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 209 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 211 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 215 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 217 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 219 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 223 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 225 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 227 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 231 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 233 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 235 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 254 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 256 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 258 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 262 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 264 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 266 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 270 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 272 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 274 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 278 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 280 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 282 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 286 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 288 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 290 行.
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 310 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 314 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 318 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 324 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 328 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 332 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 338 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 342 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 346 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 352 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 356 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 360 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 366 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 370 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 374 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 395 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 399 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 403 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 409 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 413 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 417 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 423 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 427 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 431 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 437 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 441 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 445 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 451 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 455 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 459 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005931s ]
+
+[ 2016-01-14T20:13:19+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004972s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007041s ]
+
+[ 2016-01-14T20:13:23+08:00 ] 127.0.0.1 /Qiao/Home/Info/index/bid/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0102s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=55 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000717s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001139s ]
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 199 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 201 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 203 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 207 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 209 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 211 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 215 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 217 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 219 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 223 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 225 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 227 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 231 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 233 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 235 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 254 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 256 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 258 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 262 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 264 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 266 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 270 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 272 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 274 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 278 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 280 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 282 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 286 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 288 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 290 行.
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 310 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 314 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 318 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 324 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 328 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 332 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 338 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 342 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 346 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 352 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 356 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 360 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 366 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 370 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 374 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 395 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 399 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 403 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 409 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 413 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 417 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 423 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 427 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 431 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 437 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 441 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 445 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 451 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 455 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 459 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002459s ]
+
+[ 2016-01-14T20:23:29+08:00 ] 127.0.0.1 /Qiao/Home/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0014s ]
+NOTIC: [8] Use of undefined constant info - assumed 'info' C:\wamp\www\Qiao\Application\Home\Controller\InfoController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000582s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002740s ]
+
+[ 2016-01-14T20:23:30+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003913s ]
+
+[ 2016-01-14T20:23:33+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/index/bid/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003402s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `bujianlist` [ RunTime:0.0131s ]
+SQL: SELECT `name` FROM `bujianlist`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0155s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000881s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2016-01-14T20:23:35+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000228s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0102s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t2' ) ORDER BY gid asc  [ RunTime:0.0045s ]
+
+[ 2016-01-14T20:23:37+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0114s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t4' ) ORDER BY gid asc  [ RunTime:0.0008s ]
+
+[ 2016-01-14T20:23:38+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0107s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t6' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:23:39+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0105s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t8' ) ORDER BY gid asc  [ RunTime:0.0008s ]
+
+[ 2016-01-14T20:23:40+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0079s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t10' ) ORDER BY gid asc  [ RunTime:0.0007s ]
+
+[ 2016-01-14T20:23:41+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0070s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t2' ) ORDER BY gid asc  [ RunTime:0.0005s ]
+
+[ 2016-01-14T20:23:44+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/addgoujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004640s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `goujian` WHERE ( bid=55 and bujian='t2' and name='nkdnvkdfnv' )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `goujian` WHERE ( bid=55 and bujian='t2' )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+SQL: INSERT INTO `goujian` (`name`,`bid`,`bujian`) VALUES ('nkdnvkdfnv','55','t2') [ RunTime:0.0051s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t2' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:23:46+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setgoujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0124s ]
+SQL: SELECT `weizhi`,`jianyi`,`time`,`score`,`img` FROM `goujian` WHERE ( bid=55 and bujian='t2' and gid=73 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `binghai` [ RunTime:0.0138s ]
+SQL: SELECT `bingid`,`dengji`,`name` FROM `binghai` WHERE ( bid=55 and bujian='t2' and gid=73 ) ORDER BY bingid asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `weixiu` [ RunTime:0.0157s ]
+SQL: SELECT `name` FROM `weixiu` WHERE ( bid=55 and bujian='t2' and gid=73 ) ORDER BY weixiuid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:29:24+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/pingding.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+SQL: SHOW COLUMNS FROM `binghai` [ RunTime:0.0115s ]
+SQL: SELECT `gid`,`bingid`,`score` FROM `binghai` WHERE ( bid=55 ) ORDER BY gid,score desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0013s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t2' ) ORDER BY score  [ RunTime:0.0010s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t4' ) ORDER BY score  [ RunTime:0.0014s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t6' ) ORDER BY score  [ RunTime:0.0010s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t8' ) ORDER BY score  [ RunTime:0.0013s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t10' ) ORDER BY score  [ RunTime:0.0009s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t12' ) ORDER BY score  [ RunTime:0.0009s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t14' ) ORDER BY score  [ RunTime:0.0010s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t16' ) ORDER BY score  [ RunTime:0.0014s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t18' ) ORDER BY score  [ RunTime:0.0013s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t20' ) ORDER BY score  [ RunTime:0.0019s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t22' ) ORDER BY score  [ RunTime:0.0010s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t24' ) ORDER BY score  [ RunTime:0.0010s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t26' ) ORDER BY score  [ RunTime:0.0013s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t28' ) ORDER BY score  [ RunTime:0.0009s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t30' ) ORDER BY score  [ RunTime:0.0010s ]
+SQL: SELECT `score`,`bujian`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t32' ) ORDER BY score  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `pingfen` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `pingfen` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+SQL: UPDATE `pingfen` SET `t2`='100.00',`t4`='100.00',`t6`='100.00',`t8`='100.00',`t10`='100.00',`t12`='100.00',`t14`='100.00',`t16`='100.00',`t18`='100.00',`t20`='100.00',`t22`='100.00',`t24`='100.00',`t26`='100.00',`t28`='100.00',`t30`='100.00',`t32`='100.00' WHERE `bid` = 55 [ RunTime:0.0057s ]
+SQL: UPDATE `pingfen` SET `t2`='100.00',`t4`='100.00',`t6`='100.00',`t8`='100.00',`t10`='100.00',`t12`='100.00',`t14`='100.00',`t16`='100.00',`t18`='100.00',`t20`='100.00',`t22`='100.00',`t24`='100.00',`t26`='100.00',`t28`='100.00',`t30`='100.00',`t32`='100.00',`j3`='100.00',`j2`='100.00',`j1`='100.00',`q`='100.00',`jd1`='1',`jd2`='1',`jd3`='1',`qd`='1' WHERE `bid` = 55 [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `pingfen` WHERE ( bid=55 )  [ RunTime:0.0012s ]
+SQL: UPDATE `bridge` SET `score`='100.00',`level`='1' WHERE ( bid=55 ) [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant pingding - assumed 'pingding' C:\wamp\www\Qiao\Application\Home\Controller\PingdingController.class.php 第 716 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2016-01-14T20:29:29+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003165s ]
+
+[ 2016-01-14T20:29:39+08:00 ] 127.0.0.1 /Qiao/Home/Info/index/bid/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004525s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0124s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000489s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 199 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 201 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 203 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 207 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 209 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 211 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 215 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 217 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 219 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 223 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 225 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 227 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 231 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 233 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 235 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 254 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 256 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 258 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 262 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 264 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 266 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 270 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 272 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 274 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 278 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 280 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 282 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 286 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 288 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 290 行.
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 310 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 314 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 318 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 324 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 328 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 332 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 338 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 342 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 346 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 352 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 356 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 360 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 366 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 370 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 374 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 395 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 399 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 403 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 409 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 413 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 417 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 423 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 427 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 431 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 437 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 441 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 445 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 451 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 455 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 459 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2016-01-14T20:29:43+08:00 ] 127.0.0.1 /Qiao/Home/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007663s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0012s ]
+NOTIC: [8] Use of undefined constant info - assumed 'info' C:\wamp\www\Qiao\Application\Home\Controller\InfoController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2016-01-14T20:33:19+08:00 ] 127.0.0.1 /Qiao/Home/Info/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 199 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 201 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 203 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 207 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 209 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 211 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 215 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 217 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 219 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 223 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 225 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 227 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 231 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 233 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 235 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 254 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 256 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 258 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 262 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 264 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 266 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 270 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 272 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 274 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 278 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 280 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 282 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 286 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 288 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 290 行.
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 310 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 314 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 318 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 324 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 328 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 332 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 338 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 342 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 346 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 352 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 356 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 360 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 366 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 370 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 374 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 395 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 399 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 403 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 409 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 413 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 417 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 423 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 427 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 431 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 437 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 441 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 445 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 451 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 455 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\3f36e03cb4a38b2ed27bc75332298af5.php 第 459 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002503s ]
+
+[ 2016-01-14T20:34:34+08:00 ] 127.0.0.1 /Qiao/Home/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014740s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant info - assumed 'info' C:\wamp\www\Qiao\Application\Home\Controller\InfoController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000546s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000986s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002292s ]
+
+[ 2016-01-14T20:37:12+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002166s ]
+
+[ 2016-01-14T20:37:17+08:00 ] 127.0.0.1 /Qiao/Home/Baobiao/index/bid/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0117s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=55 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 94 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 96 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 98 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 102 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 104 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 106 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 110 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 112 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 114 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 118 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 120 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 122 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 149 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 151 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 153 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 157 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 159 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 161 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 165 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 167 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 169 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 173 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 175 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2016-01-14T20:37:22+08:00 ] 127.0.0.1 /Qiao/Home/Baobiao/pingfen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003892s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `pingfen` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pingfen` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant pingfen - assumed 'pingfen' C:\wamp\www\Qiao\Application\Home\Controller\BaobiaoController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2016-01-14T20:37:24+08:00 ] 127.0.0.1 /Qiao/Home/Baobiao/jilu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007273s ]
+SQL: SHOW COLUMNS FROM `jilu` [ RunTime:0.0192s ]
+SQL: SHOW COLUMNS FROM `jilu2` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `jilu` WHERE ( bid=55 )  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `jilu2` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant jilu - assumed 'jilu' C:\wamp\www\Qiao\Application\Home\Controller\BaobiaoController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002335s ]
+
+[ 2016-01-14T20:45:22+08:00 ] 127.0.0.1 /Qiao/Home/Baobiao/pingfen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010280s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `pingfen` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pingfen` WHERE ( bid=55 )  [ RunTime:0.0011s ]
+NOTIC: [8] Use of undefined constant pingfen - assumed 'pingfen' C:\wamp\www\Qiao\Application\Home\Controller\BaobiaoController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000908s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2016-01-14T20:45:24+08:00 ] 127.0.0.1 /Qiao/Home/Baobiao/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=55 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index: t1 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t2 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t3 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t16 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t17 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t18 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 12 行.
+NOTIC: [8] Undefined index: t4 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 94 行.
+NOTIC: [8] Undefined index: t5 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 96 行.
+NOTIC: [8] Undefined index: t6 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 98 行.
+NOTIC: [8] Undefined index: t7 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 102 行.
+NOTIC: [8] Undefined index: t8 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 104 行.
+NOTIC: [8] Undefined index: t9 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 106 行.
+NOTIC: [8] Undefined index: t10 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 110 行.
+NOTIC: [8] Undefined index: t11 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 112 行.
+NOTIC: [8] Undefined index: t12 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 114 行.
+NOTIC: [8] Undefined index: t13 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 118 行.
+NOTIC: [8] Undefined index: t14 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 120 行.
+NOTIC: [8] Undefined index: t15 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 122 行.
+NOTIC: [8] Undefined index: t19 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 149 行.
+NOTIC: [8] Undefined index: t20 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 151 行.
+NOTIC: [8] Undefined index: t21 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 153 行.
+NOTIC: [8] Undefined index: t22 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 157 行.
+NOTIC: [8] Undefined index: t23 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 159 行.
+NOTIC: [8] Undefined index: t24 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 161 行.
+NOTIC: [8] Undefined index: t25 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 165 行.
+NOTIC: [8] Undefined index: t26 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 167 行.
+NOTIC: [8] Undefined index: t27 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 169 行.
+NOTIC: [8] Undefined index: t28 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 173 行.
+NOTIC: [8] Undefined index: t29 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 175 行.
+NOTIC: [8] Undefined index: t30 C:\wamp\www\Qiao\Application\Runtime\Cache\Home\f55f054a7103b8ff2b17624628bbba10.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2016-01-14T20:45:36+08:00 ] 127.0.0.1 /Qiao/Home/Baobiao/pingfen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0155s ]
+SQL: SHOW COLUMNS FROM `pingfen` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `pingfen` WHERE ( bid=55 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant pingfen - assumed 'pingfen' C:\wamp\www\Qiao\Application\Home\Controller\BaobiaoController.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000572s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007443s ]
+
+[ 2016-01-14T20:45:39+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000576s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016012s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005822s ]
+
+[ 2016-01-14T20:45:46+08:00 ] 127.0.0.1 /Qiao/Home/Info/index/bid/61.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0110s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=61 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=61 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=61 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000890s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2016-01-14T20:46:24+08:00 ] 127.0.0.1 /Qiao/Home/Info/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=61 )  [ RunTime:0.0013s ]
+NOTIC: [8] Use of undefined constant info - assumed 'info' C:\wamp\www\Qiao\Application\Home\Controller\InfoController.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000687s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005081s ]
+
+[ 2016-01-14T20:46:27+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000868s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003735s ]
+
+[ 2016-01-14T20:46:29+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/index/bid/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `bujianlist` [ RunTime:0.0106s ]
+SQL: SELECT `name` FROM `bujianlist`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0108s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=55 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=55 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001513s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002109s ]
+
+[ 2016-01-14T20:46:32+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0120s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t2' ) ORDER BY gid asc  [ RunTime:0.0010s ]
+
+[ 2016-01-14T20:46:34+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setgoujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003269s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0095s ]
+SQL: SELECT `weizhi`,`jianyi`,`time`,`score`,`img` FROM `goujian` WHERE ( bid=55 and bujian='t2' and gid=73 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `binghai` [ RunTime:0.0101s ]
+SQL: SELECT `bingid`,`dengji`,`name` FROM `binghai` WHERE ( bid=55 and bujian='t2' and gid=73 ) ORDER BY bingid asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `weixiu` [ RunTime:0.0094s ]
+SQL: SELECT `name` FROM `weixiu` WHERE ( bid=55 and bujian='t2' and gid=73 ) ORDER BY weixiuid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:46:36+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0094s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t4' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:46:37+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0123s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t6' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:46:39+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0102s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t8' ) ORDER BY gid asc  [ RunTime:0.0008s ]
+
+[ 2016-01-14T20:46:41+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0107s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t10' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:46:43+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002316s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0106s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t12' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:46:45+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0130s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t6' ) ORDER BY gid asc  [ RunTime:0.0009s ]
+
+[ 2016-01-14T20:46:46+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0110s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=55 and bujian='t4' ) ORDER BY gid asc  [ RunTime:0.0008s ]
+

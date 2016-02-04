@@ -1,0 +1,12 @@
+[ 2016-01-14T20:23:46+08:00 ] 127.0.0.1 /Qiao/Application/Home/View/Public/img/96bdf41419df9e882108bf0e34ba55c2/d2ddea18f00665ce8623e36bd4e3c7c5/img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002637s ]
+ERR: 无法加载模块:Application
+
+[ 2016-01-14T20:46:34+08:00 ] 127.0.0.1 /Qiao/Application/Home/View/Public/img/96bdf41419df9e882108bf0e34ba55c2/d2ddea18f00665ce8623e36bd4e3c7c5/img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002398s ]
+ERR: 无法加载模块:Application
+

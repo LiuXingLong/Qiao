@@ -1,0 +1,263 @@
+[ 2015-12-22T00:57:17+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+
+[ 2015-12-22T00:57:17+08:00 ] 127.0.0.1 /Qiao/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2015-12-22T00:57:17+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2015-12-22T00:57:27+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2015-12-22T00:57:35+08:00 ] 127.0.0.1 /Qiao/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005412s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0312s ]
+
+[ 2015-12-22T00:57:37+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004693s ]
+
+[ 2015-12-22T00:57:46+08:00 ] 127.0.0.1 /Qiao/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: select *from user where username='admin' [ RunTime:0.0017s ]
+
+[ 2015-12-22T00:57:47+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2015-12-22T00:57:47+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2015-12-22T00:57:57+08:00 ] 127.0.0.1 /Qiao/Home/Info/index/bid/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `info1` [ RunTime:0.0748s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0058s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=59 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `info1` WHERE ( bid=59 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bridge` WHERE ( bid=59 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-12-22T00:58:13+08:00 ] 127.0.0.1 /Qiao/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004513s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bridge` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bridge` WHERE `user` = 'admin' ORDER BY bid asc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004366s ]
+
+[ 2015-12-22T00:58:16+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/index/bid/59.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000480s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: SHOW COLUMNS FROM `info2` [ RunTime:0.0265s ]
+SQL: SHOW COLUMNS FROM `bujianlist` [ RunTime:0.0249s ]
+SQL: SELECT `name` FROM `bujianlist`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `bridge` [ RunTime:0.0127s ]
+SQL: SELECT `user` FROM `bridge` WHERE ( bid=59 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `info2` WHERE ( bid=59 )  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000835s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002744s ]
+
+[ 2015-12-22T00:58:19+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setbujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0985s ]
+SQL: SELECT `name`,`gid` FROM `goujian` WHERE ( bid=59 and bujian='t2' ) ORDER BY gid asc  [ RunTime:0.0148s ]
+
+[ 2015-12-22T00:58:21+08:00 ] 127.0.0.1 /Qiao/Home/Pingding/setgoujian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: SHOW COLUMNS FROM `goujian` [ RunTime:0.0112s ]
+SQL: SELECT `weizhi`,`jianyi`,`time`,`score`,`img` FROM `goujian` WHERE ( bid=59 and bujian='t2' and gid=69 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `binghai` [ RunTime:0.0669s ]
+SQL: SELECT `bingid`,`dengji`,`name` FROM `binghai` WHERE ( bid=59 and bujian='t2' and gid=69 ) ORDER BY bingid asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `weixiu` [ RunTime:0.0161s ]
+SQL: SELECT `name` FROM `weixiu` WHERE ( bid=59 and bujian='t2' and gid=69 ) ORDER BY weixiuid asc  [ RunTime:0.0024s ]
+
+[ 2015-12-22T01:06:20+08:00 ] 127.0.0.1 /Qiao/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+
+[ 2015-12-22T01:06:20+08:00 ] 127.0.0.1 /Qiao/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000725s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003498s ]
+
+[ 2015-12-22T01:06:21+08:00 ] 127.0.0.1 /Qiao/Home/Code/getCode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003182s ]
+

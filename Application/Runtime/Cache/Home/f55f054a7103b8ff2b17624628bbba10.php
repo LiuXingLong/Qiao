@@ -1,0 +1,237 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>公路桥梁检测评定系统</title>
+	<script type="text/javascript" src="/Qiao/Application/Home/View/Public/bootstrap/js/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="/Qiao/Application/Home/View/Public/bootstrap/js/jquery-ui"></script>
+	<link href="/Qiao/Application/Home/View/Public/bootstrap/css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+	<script type="text/javascript" src="/Qiao/Application/Home/View/Public/bootstrap/js/bootstrap.min.js"></script>	
+	<script type="text/javascript">
+		$(function(){
+			<?php for($i=1;$i<4;$i++){ if($data["t".$i]==""){ $data["t".$i]="&nbsp;&nbsp;&nbsp;&nbsp;"; } } for($i=16;$i<19;$i++){ if($data["t".$i]==""){ $data["t".$i]="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; } } ?>			
+		});
+	</script>	
+	<style type="text/css">
+		.table th, .table td {
+    		 padding: 8px;
+   			 line-height: 20px;
+   			 text-align: center;
+             vertical-align: top;
+             border-top: 1px solid #dddddd;
+        }
+         .ml{
+        	color: rgba(0, 61, 255, 0.78);
+        	font-weight:600;
+        }
+        .badge-success{
+        	font-size:18px;
+        	padding-top: 6px;
+        	padding-bottom: 6px;
+        }
+        .panel-body{
+       		word-break: break-all;
+       		word-wrap: break-word;
+        }
+        .panel-body button{	
+   			 margin-top: 110px;
+   			 margin-left: 30px;
+        }
+        img{
+        	cursor: pointer;
+        }
+	</style>
+</head>
+<body style="background:url(/Qiao/Application/Home/View/Public/css/body.jpg);background-attachment:fixed;background-repeat:no-repeat;">
+<div>
+	<div>                   
+		<div style="margin-top: 50px;">
+			<div style="float: right;margin-right: 60px;  color: #08c;">
+				<span><?php echo ($_SESSION['username']); ?>,欢迎您！</span>                             
+				<button class="btn btn-success" type="button" onclick="window.location.href='<?php echo U('Login/logout');?>'">退出</button>
+			</div> 
+			<h3 class="text-center text-success" style="margin-left: 200px;">公路桥梁检测评定系统</h3>
+		</div>                 
+	</div>
+    <div  style="margin-top: 60px;">
+		<div class="span2" >                
+			<ul class="nav nav-stacked nav-pills">
+				<li class="active">
+					<a href="#">桥梁基本信息表</a>
+				</li>
+				<li style="margin-top: 20px;">
+					<a href="<?php echo U('Baobiao/pingfen');?>">桥梁技术状况评分表</a>
+				</li>				
+				<li style="margin-top: 20px;">
+					<a href="<?php echo U('Baobiao/jilu');?>">桥梁检测记录表</a>
+				</li>				
+				<li style="margin-top: 20px;">
+					<a href="<?php echo U('Index/index');?>">返回主页</a>
+				</li>								
+			</ul>   					               
+		</div>      
+		<div class="span11">                        
+                <div class="span10" id="showtable">               	
+                	<div class="panel panel-success">
+						<div class="panel-heading">
+						<h3 class="panel-title">
+							行政识别数据
+						</h3>
+					</div>
+					<div class="panel-body">
+						<table class="table table-bordered">						
+						<tbody>
+							<tr>
+								<td class="ml">路线编号</td>
+								<td><?php echo ($data['t1']); ?></td>
+								<td class="ml">路线名称</td>
+								<td><?php echo ($data['t2']); ?></td>
+								<td class="ml">路线等级</td>
+								<td><?php echo ($data['t3']); ?></td>
+							</tr>
+							<tr class="success">
+								<td class="ml">桥梁编号</td>
+								<td><?php echo ($data['t4']); ?></td>
+								<td class="ml">桥梁名称</td>
+								<td><?php echo ($data['t5']); ?></td>
+								<td class="ml">桥位桩号</td>
+								<td><?php echo ($data['t6']); ?></td>
+							</tr>
+							<tr class="error">
+								<td class="ml">功能类型</td>
+								<td><?php echo ($data['t7']); ?></td>
+								<td class="ml">下穿通道名</td>
+								<td><?php echo ($data['t8']); ?></td>
+								<td class="ml">下穿通道桩号</td>
+								<td><?php echo ($data['t9']); ?></td>
+							</tr>
+							<tr class="warning">
+								<td class="ml">设计荷载</td>
+								<td><?php echo ($data['t10']); ?></td>
+								<td class="ml">通行载重</td>
+								<td><?php echo ($data['t11']); ?></td>
+								<td class="ml">弯斜坡度</td>
+								<td><?php echo ($data['t12']); ?></td>
+							</tr>
+							<tr class="info">
+								<td class="ml">桥面铺装</td>
+								<td><?php echo ($data['t13']); ?></td>
+								<td class="ml">管养单位</td>
+								<td><?php echo ($data['t14']); ?></td>
+								<td class="ml">建成年限</td>
+								<td><?php echo ($data['t15']); ?></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>					
+				</div>	
+				</div>
+				<div class="span10" id="showtable1">                	
+                	<div class="panel panel-info">
+						<div class="panel-heading">
+						<h3 class="panel-title">
+							结构技术数据
+						</h3>
+					</div>
+					<div class="panel-body">
+						<table class="table table-bordered">						
+						<tbody>
+							<tr>
+								<td class="ml">桥长(m)</td>
+								<td><?php echo ($data['t16']); ?></td>
+								<td class="ml">桥面总宽(m)</td>
+								<td><?php echo ($data['t17']); ?></td>
+								<td class="ml">车行道宽(m)</td>
+								<td><?php echo ($data['t18']); ?></td>
+							</tr>
+							<tr class="success">
+								<td class="ml">桥面标高(m)</td>
+								<td><?php echo ($data['t19']); ?></td>
+								<td class="ml">桥下净高(m)</td>
+								<td><?php echo ($data['t20']); ?></td>
+								<td class="ml">桥上净高(m)</td>
+								<td><?php echo ($data['t21']); ?></td>
+							</tr>
+							<tr class="error">
+								<td class="ml">引道总宽(m)</td>
+								<td><?php echo ($data['t22']); ?></td>
+								<td class="ml">引道路面宽(m)</td>
+								<td><?php echo ($data['t23']); ?></td>
+								<td class="ml">引道线形</td>
+								<td><?php echo ($data['t24']); ?></td>
+							</tr>
+							<tr class="warning">
+								<td class="ml">桥梁跨数</td>
+								<td><?php echo ($data['t25']); ?></td>
+								<td class="ml">主要跨径(m)</td>
+								<td><?php echo ($data['t26']); ?></td>
+								<td class="ml">基础类型</td>
+								<td><?php echo ($data['t27']); ?></td>
+							</tr>
+							<tr class="info">
+								<td class="ml">伸缩缝类型</td>
+								<td><?php echo ($data['t28']); ?></td>
+								<td class="ml">支座形式</td>
+								<td><?php echo ($data['t29']); ?></td>
+								<td class="ml">地震动峰值加速度系数</td>
+								<td><?php echo ($data['t30']); ?></td>
+							</tr>
+						</tbody>
+					</table>
+					</div>					
+				</div>	
+				</div>
+				<div class="span10" style="margin-bottom: 60px;">
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">
+									<span class="label badge-success" contenteditable="false" style="margin-left: 60px;">正面照</span> 
+									<span class="label badge-success" contenteditable="false" style="margin-left: 254px;">立面照</span> 
+									<span class="label badge-success" contenteditable="false" style="margin-left: 244px;">结构简图</span> 								
+								</h3>								
+							</div>
+							<div class="panel-body" style="padding-bottom: 20px;" >
+								<div class="span3" style="float:left; margin-left:18px;">
+									<div>
+										<img id="img1" data-target="#modal-container-img1" data-toggle="modal"  alt="未上传图片，请上传图片！" width="560" height="316" src="/Qiao/Application/Home/View/Public/img/<?php echo ($data['img1']); ?>" class="img-rounded" />
+									</div>										
+								</div>
+								<div class="span3" style="float:left;margin-left:58px;">
+									<div>
+										<img id="img2" data-target="#modal-container-img2" data-toggle="modal"  alt="未上传图片，请上传图片！" width="560" height="316" src="/Qiao/Application/Home/View/Public/img/<?php echo ($data['img2']); ?>" class="img-rounded" />
+									</div>										
+								</div>
+								<div class="span3" style="float:left; margin-left:52px;">
+									<div>
+										<img id="img3" data-target="#modal-container-img3" data-toggle="modal" alt="未上传图片，请上传图片！" width="560" height="316" src="/Qiao/Application/Home/View/Public/img/<?php echo ($data['img3']); ?>" class="img-rounded" />
+									</div>										
+								</div>						
+							</div>				
+						</div>
+					</div>				
+ 
+				 <!-- 图片放大 -->	
+				 			 				
+				 <div id="modal-container-img1" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<img id="img11" alt="未上传图片，请上传图片！" width="560" height="316" src="/Qiao/Application/Home/View/Public/img/<?php echo ($data['img1']); ?>" class="img-rounded" />				
+				 </div>
+				 
+				 <div id="modal-container-img2" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<img id="img22" alt="未上传图片，请上传图片！" width="560" height="316" src="/Qiao/Application/Home/View/Public/img/<?php echo ($data['img2']); ?>" class="img-rounded" />				
+				 </div>
+				 
+				 <div id="modal-container-img3" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<img id="img33" alt="未上传图片，请上传图片！" width="560" height="316" src="/Qiao/Application/Home/View/Public/img/<?php echo ($data['img3']); ?>" class="img-rounded" />				
+				 </div>
+				 
+				 <!-- 图片放大 -->	
+				 
+				 			 	 
+			</div>	
+		</div>
+	</div>       
+</body>
+</html>
